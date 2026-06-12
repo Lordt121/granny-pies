@@ -1,0 +1,53 @@
+/*
+  Name: Yong Bemsimbom Nkwain Brian 
+  Section: CSSE 290
+  Assignment: Homework 1 - Recipe
+  File: recipe.css
+  Description: Stylesheet for pie.html
+
+  Extra features completed:
+    4. Wide headings (0.25em letter-spacing on heading text)
+    5. Tight heading background (gray background only behind heading text)
+*/
+
+body {
+    background-color: #FFFFFF;
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+}
+
+h1, h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+    letter-spacing: 0.25em;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 22pt;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+h2 {
+    font-size: 18pt;
+    font-weight: normal;
+}
+
+a {
+    color: #A4A400;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #FFFFA8;
+}
+
+pre {
+    font-family: monospace;
+}
